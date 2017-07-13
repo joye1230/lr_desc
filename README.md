@@ -30,7 +30,7 @@ curl  http://127.0.0.1/user/list
         },
         {
             "id": 3,
-            "name": "玩家c"
+            "name": "玩家c",
             "lasttime": 1499913750,
         }
     ]
@@ -72,8 +72,8 @@ id       |int        |玩家id       |必填
   "gem":10,
   "gold":10,
   "viplevel":"5",
-  "estoppel":"200"
-  "ban":
+  "estoppel":200,
+  "ban":0,
 }
 ```
 #### 字段说明
