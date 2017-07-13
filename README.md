@@ -74,6 +74,10 @@ id       |int        |玩家id       |必填
   "viplevel":"5",
   "estoppel":200,
   "ban":0,
+  "usercp":10,
+  "exp":1000,
+  "labor_union":"渣渣工会",
+  "score":200,
 }
 ```
 #### 字段说明
@@ -88,6 +92,12 @@ gold       |int        |黄金
 viplevel       |int       |vip等级
 estoppel       |int 	|玩家禁言时间 0为没有 9999为永久
 ban       |int 	|玩家封停时间 0为没有 9999为永久
+usercp    |int 	|魅力值
+exp    |int 	|经验值
+labor_union    |string 	|渣渣工会
+score    |int 	|玩家积分
+
+
 
 
 
